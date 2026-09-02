@@ -1,0 +1,13 @@
+[project]
+name = "chemprops"
+version = "0.1.0"
+description = "Calculate chemical properties of molecules with RDKit"
+requires-python = ">=3.9"
+dependencies = ["rdkit"]
+
+[project.scripts]
+chemprops = "chemprops:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
