@@ -42,3 +42,8 @@ def run(smiles):
 ```
 
 with one string argument `smiles`.
+
+This repo declares its RDKit dependency in `pyproject.toml`, but that is just
+one way to do it. Import from GitHub also detects dependencies from
+`setup.py`, `requirements.txt`, `environment.yml` (conda packages), and a
+`Dockerfile` (apt packages).
